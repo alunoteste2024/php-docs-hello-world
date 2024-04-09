@@ -78,7 +78,7 @@
                             echo "Validou login e senha";
 							$_SESSION['usuario']=$user;
 							$_SESSION['senha']=$pass;
-							header("Location: home.php");
+							header("Location: https://myphpteste.azurewebsites.net/home.php");
 						}
 						/* Se o usuario ou a senha não batem alertamos o usuario */
 						else{
