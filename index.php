@@ -78,6 +78,7 @@
                             echo "Validou login e senha";
 							$_SESSION['usuario']=$user;
 							$_SESSION['senha']=$pass;
+                            echo "<script:alert('Usuário autenticado com sucesso!');</script>";
 							header("Location: https://myphpteste.azurewebsites.net/home.php");
 						}
 						/* Se o usuario ou a senha não batem alertamos o usuario */
