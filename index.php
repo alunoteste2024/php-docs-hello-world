@@ -75,6 +75,7 @@
 					else{
 						if(($user == $user1 && $pass == $pass1) || ($user == $user2 && $pass == $pass2)){
 							session_start();
+                            echo "Validou login e senha";
 							$_SESSION['usuario']=$user;
 							$_SESSION['senha']=$pass;
 							header("Location: home.php");
