@@ -77,7 +77,7 @@
 							session_start();
 							$_SESSION['usuario']=$user;
 							$_SESSION['senha']=$pass;
-							header("Location: painel.php");
+							header("Location: home.php");
 						}
 						/* Se o usuario ou a senha não batem alertamos o usuario */
 						else{
