@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
-		<title>Tela de Login</title>
+		<title>Tela de Login </title>
 		<meta charset="UTF-8" />
 		<!-- Estilos da Index.php -->
 		<style type="text/css">
