@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
-		<title>Sistema de Login:: Toolmmer</title>
+		<title>Tela de Login</title>
 		<meta charset="UTF-8" />
 		<!-- Estilos da Index.php -->
 		<style type="text/css">
@@ -45,8 +45,8 @@
 				*Action é vazia por que vamos fazer a validação e o redirecionamento nesta mesma página.
 			-->
 			<form name="" method="post" action="">
-				<label>User: <input type="text" name="user" /></label><br /><br />
-				<label>Password: <input type="password" name="pass" /></label><br /><br />
+				<label>Usuário: <input type="text" name="user" /></label><br /><br />
+				<label>Senha: <input type="password" name="pass" /></label><br /><br />
 				<input type="submit" name="submit" value="Logar!" />
 			</form>
 			<?php
